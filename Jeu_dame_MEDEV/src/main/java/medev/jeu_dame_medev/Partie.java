@@ -1,20 +1,23 @@
+package medev.jeu_dame_medev;
+
+
+import java.util.ArrayList;
+import medev.jeu_dame_medev.Board;
 import medev.jeu_dame_medev.Piece;
 
 public class Partie {
-    ;
 
-    public void deroulement(Board b){
+    public void deroulement(Board b) {
         boolean pasDeVainqueur = true;
         int joueur = -1;
-        while(pasDeVainqueur){
-            if(joueur == -1){
+        while (pasDeVainqueur) {
+            if (joueur == -1) {
                 System.out.println("Au tour des blancs");
-            }
-            else{
+            } else {
                 System.out.println("Au tour des noirs");
             }
-            ArrayList<Piece, Integer> coupJouables = new ArraList<>();
-            for(Piece p : b){
+            //          ArrayList<ArrayList<Piece, Integer>> coupJouables = new ArrayList<>();
+            /*           for(Piece p : b){
                 if(p.getColor() == joueur && p.jouable(b, true)){
                     coupJouables.add(p,p.repas(b,true));
                 }
@@ -29,6 +32,7 @@ public class Partie {
             pasDeVainqueur = checkVictoire();
             joueur *= -1;
         }
-        
+             */
+        }
     }
 }

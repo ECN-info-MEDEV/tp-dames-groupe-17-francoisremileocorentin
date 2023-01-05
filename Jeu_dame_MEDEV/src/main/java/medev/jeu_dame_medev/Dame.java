@@ -7,7 +7,7 @@ package medev.jeu_dame_medev;
 /**
  *
  * @author coco
- */
+
 public class Dame extends Piece implements deplace {
     
     
@@ -20,3 +20,4 @@ public class Dame extends Piece implements deplace {
     }
     
 }
+ */
